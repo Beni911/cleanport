@@ -3,13 +3,12 @@
     align-items: center;
     justify-content: center;
     height: 650px;
-    background-color: white;
 }
 
 .text {
     font-size: 120px;
     font-weight: bold;
-    color: black;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     white-space: nowrap;
 }
@@ -19,6 +18,7 @@
     margin-left: 100px;
     height: auto;
 }
+
 .navbar {
     position: absolute;
     top: 10px;
@@ -26,4 +26,41 @@
     width: auto;
     padding: 10px 20px;
     font-size: 1.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 17%, rgba(1, 71, 167, 1) 58%, rgba(1, 79, 176, 1) 62%, rgba(1, 81, 178, 1) 67%, rgba(1, 106, 207, 1) 79%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 2px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#btn:hover,
+:focus {
+    color: #ffffff;
+    background: #063cc3;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+        0 0 100px #008cff;
 }
