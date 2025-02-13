@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    background-color: white;
+}
+
+.text {
+    font-size: 120px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+}
+
+.image {
+    width: 450px;
+    margin-left: 100px;
+    height: auto;
+}
+.navbar {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
